@@ -71,6 +71,13 @@ You can store multiple users. Use `-u` or `--user` to specify which user to use 
   rimmich-uploader --server http://your-server --key your-key upload /path/to/photos
   ```
 
+### Configuration File
+
+The application stores user configurations and the default user in a TOML file located at:
+- **Path**: `~/.immich/config.toml`
+
+This file is automatically managed when you use the `user` commands.
+
 ### Configuration Options
 
 - `--concurrent`: Set number of parallel uploads (default: 10)
